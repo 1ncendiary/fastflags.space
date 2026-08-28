@@ -1,4 +1,4 @@
-﻿#  | fastflags.netlify
+﻿#  | fastflags.netlify.app
 
 > This was a community-driven resource dedicated to cataloging and sharing information about FastFlags configuration.
 
