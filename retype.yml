@@ -5,7 +5,7 @@
 url: fastflags.netlify.app
 
 meta:
-  title: " | fastflags.netlify"
+  title: " | fastflags.netlify.app"
 
 breadcrumb:
   enabled: true
@@ -15,7 +15,7 @@ breadcrumb:
 # -----------------------------------------------------------------------------
 
 branding:
-  title: archive
+  title: fastflags.netlify.app
   logo: assets/005.gif
 
   colors:
