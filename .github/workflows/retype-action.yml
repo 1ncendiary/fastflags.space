@@ -2,7 +2,6 @@
 # Powered by Retype
 # -----------------------------------------------------------------------------
 
-url: archive.imgui.cc
 url: fastflags.netlify.app
 
 start:
@@ -19,8 +18,8 @@ breadcrumb:
 # -----------------------------------------------------------------------------
 
 branding:
-  title: archive
-  logo: assets/cartii.jpg
+  title: fastflags archive
+  logo: assets/005.gif
 
   colors:
     label:
@@ -34,7 +33,7 @@ links:
     link: https://discord.gg/6zqNQTSkrg
     icon: people
   - text: Repository
-    link: https://github.com/fastdotspace/fastflags.space
+    link: https://github.com/lumynxa/fastflags-collective
     icon: mark-github
   - text: Patreon
     link: https://patreon.com/fastflags
@@ -43,13 +42,13 @@ links:
 # -----------------------------------------------------------------------------
 
 footer:
-  copyright: "© Copyright {{ year }} – imgui.cc / fastflags.netlify.app – All rights reserved."
+  copyright: "© Copyright {{ year }} – lumyna.cc / fastflags.netlify.app – All rights reserved."
   links:
     - text: Privacy Policy
       link: privacy-policy.md
       icon: shield-lock
     - text: Issues
-      link: https://github.com/fastdotspace/fastflags.space/issues
+      link: https://github.com/lumynxa/fastflags-collective
       icon: comment-discussion
 
 # -----------------------------------------------------------------------------
