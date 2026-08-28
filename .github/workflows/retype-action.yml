@@ -1,28 +1,62 @@
-name: Publish Retype powered website to GitHub Pages
-on:
-  workflow_dispatch:
-  push:
-    branches:
-      - master
+# -----------------------------------------------------------------------------
+# Powered by Retype
+# -----------------------------------------------------------------------------
 
-jobs:
-  publish:
-    name: Publish to retype branch
+url: archive.imgui.cc
+url: fastflags.netlify.app
 
-    runs-on: ubuntu-latest
+start:
+    pro: true
 
-    permissions:
-      contents: write
+meta:
+  title: " | fastflags archive"
 
-    steps:
-      - uses: actions/checkout@v6
-        with:
-          fetch-depth: 0
+breadcrumb:
+  enabled: true
+  home: ":icon-home:"
+  separator: "|"
 
-      - uses: retypeapp/action-build@latest
-        env:
-          RETYPE_KEY: dEVPBhEAT01MR0NBQ0xBT0VHR0NDR0dGT09PRUFDTEZARE9PT09FRERET15aEx0AHAEWWh0bT0Q-pId4N7uwS11nfzalpH2MG9Wql5Jtoc9vFnQMJJeh0WfKhv7CHrYPeg
+# -----------------------------------------------------------------------------
 
-      - uses: retypeapp/action-github-pages@latest
-        with:
-          update-branch: true
+branding:
+  title: archive
+  logo: assets/cartii.jpg
+
+  colors:
+    label:
+      text: "#7700ff"
+      background: "#0f0f0f"
+
+# -----------------------------------------------------------------------------
+
+links:
+  - text: Discord
+    link: https://discord.gg/6zqNQTSkrg
+    icon: people
+  - text: Repository
+    link: https://github.com/fastdotspace/fastflags.space
+    icon: mark-github
+  - text: Patreon
+    link: https://patreon.com/fastflags
+    icon: feed-heart
+
+# -----------------------------------------------------------------------------
+
+footer:
+  copyright: "© Copyright {{ year }} – imgui.cc / fastflags.netlify.app – All rights reserved."
+  links:
+    - text: Privacy Policy
+      link: privacy-policy.md
+      icon: shield-lock
+    - text: Issues
+      link: https://github.com/fastdotspace/fastflags.space/issues
+      icon: comment-discussion
+
+# -----------------------------------------------------------------------------
+
+favicon: static/favicon.png
+
+# -----------------------------------------------------------------------------
+  
+input: .
+output: .retype
