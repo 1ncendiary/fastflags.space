@@ -17,8 +17,7 @@ visibility: hidden
 
 ### *✧× links to the page ×✧*
 
-#### ⭐ https://imgui.cc
-##### 🪞 https://fastflags.netlify.app/
+#### ⭐https://fastflags.netlify.app/
 
 </div>
 
