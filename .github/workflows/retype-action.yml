@@ -1,61 +1,28 @@
-# -----------------------------------------------------------------------------
-# Powered by Retype
-# -----------------------------------------------------------------------------
+name: Publish Retype powered website to GitHub Pages
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - master
 
-url: fastflags.netlify.app
+jobs:
+  publish:
+    name: Publish to retype branch
 
-start:
-    pro: true
+    runs-on: ubuntu-latest
 
-meta:
-  title: " | fastflags archive"
+    permissions:
+      contents: write
 
-breadcrumb:
-  enabled: true
-  home: ":icon-home:"
-  separator: "|"
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          fetch-depth: 0
 
-# -----------------------------------------------------------------------------
+      - uses: retypeapp/action-build@latest
+        env:
+          RETYPE_KEY: dEVPBhEAT01MR0NBQ0xBT0VHR0NDR0dGT09PRUFDTEZARE9PT09FRERET15aEx0AHAEWWh0bT0Q-pId4N7uwS11nfzalpH2MG9Wql5Jtoc9vFnQMJJeh0WfKhv7CHrYPeg
 
-branding:
-  title: fastflags archive
-  logo: assets/005.gif
-
-  colors:
-    label:
-      text: "#7700ff"
-      background: "#0f0f0f"
-
-# -----------------------------------------------------------------------------
-
-links:
-  - text: Discord
-    link: https://discord.gg/6zqNQTSkrg
-    icon: people
-  - text: Repository
-    link: https://github.com/lumynxa/fastflags-collective
-    icon: mark-github
-  - text: Patreon
-    link: https://patreon.com/fastflags
-    icon: feed-heart
-
-# -----------------------------------------------------------------------------
-
-footer:
-  copyright: "© Copyright {{ year }} – lumyna.cc / fastflags.netlify.app – All rights reserved."
-  links:
-    - text: Privacy Policy
-      link: privacy-policy.md
-      icon: shield-lock
-    - text: Issues
-      link: https://github.com/lumynxa/fastflags-collective
-      icon: comment-discussion
-
-# -----------------------------------------------------------------------------
-
-favicon: static/favicon.png
-
-# -----------------------------------------------------------------------------
-  
-input: .
-output: .retype
+      - uses: retypeapp/action-github-pages@latest
+        with:
+          update-branch: true
