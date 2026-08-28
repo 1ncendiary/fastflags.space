@@ -2,7 +2,6 @@
 # Powered by Retype
 # -----------------------------------------------------------------------------
 
-url: archive.imgui.cc
 url: fastflags.netlify.app
 
 start:
@@ -11,7 +10,7 @@ start:
 poweredByRetype: false
 
 meta:
-  title: " | fastflags archive"
+  title: " | fastflags.netlify"
 
 breadcrumb:
   enabled: true
@@ -22,7 +21,7 @@ breadcrumb:
 
 branding:
   title: archive
-  logo: assets/cartii.jpg
+  logo: assets/005.gif
 
   colors:
     label:
@@ -45,7 +44,7 @@ links:
 # -----------------------------------------------------------------------------
 
 footer:
-  copyright: "© Copyright {{ year }} – imgui.cc / fastflags.netlify.app – All rights reserved."
+  copyright: "© Copyright {{ year }} – lumyna.cc / fastflags.netlify.app – All rights reserved."
   links:
     - text: Privacy Policy
       link: privacy-policy.md
