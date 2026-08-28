@@ -35,7 +35,7 @@ links:
     link: https://discord.gg/6zqNQTSkrg
     icon: people
   - text: Repository
-    link: https://github.com/fastdotspace/fastflags.space
+    link: https://github.com/lumynxa/fastflags-collective
     icon: mark-github
   - text: Patreon
     link: https://patreon.com/fastflags
@@ -50,7 +50,7 @@ footer:
       link: privacy-policy.md
       icon: shield-lock
     - text: Issues
-      link: https://github.com/fastdotspace/fastflags.space/issues
+      link: https://github.com/lumynxa/fastflags-collective
       icon: comment-discussion
 
 # -----------------------------------------------------------------------------
