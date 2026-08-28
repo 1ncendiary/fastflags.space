@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://archive.imgui.cc/sitemap.xml
+Sitemap: https://fastflags.netlify.app/sitemap.xml
