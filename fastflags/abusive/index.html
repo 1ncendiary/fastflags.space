@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="color-scheme" content="light dark">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.6.0.841275248120">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.6.0.841315052442">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 4.6.0">
@@ -38,12 +38,12 @@
     <script data-cfasync="false">(function(){var cl=document.documentElement.classList,ls=localStorage.getItem("retype_scheme"),hd=cl.contains("dark"),hl=cl.contains("light"),wm=window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches;if(ls==="dark"||(!ls&&wm&&!hd&&!hl)){cl.remove("light");cl.add("dark")}else if(ls==="light"||(!ls&&!wm&&!hd&&!hl)){cl.remove("dark");cl.add("light")}})();</script>
 
     <link id="retype-favicon" rel="icon" href="../../static/favicon.png" />
-    <link href="../../resources/css/retype.css?v=4.6.0.841275248120" rel="stylesheet">
+    <link href="../../resources/css/retype.css?v=4.6.0.841315052442" rel="stylesheet">
 
-    <script data-cfasync="false" src="../../resources/js/config.js?v=4.6.0.841275248120" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../../resources/js/config.js?v=4.6.0.841315052442" data-turbo-eval="false" defer></script>
     <script data-cfasync="false" src="../../resources/js/retype.js?v=4.6.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=4.6.0.841275248120" data-turbo-eval="false" defer></script>
-    <script id="prism-js" data-cfasync="false" src="../../resources/js/prism.js?v=4.6.0.841275248120" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=4.6.0.841315052442" data-turbo-eval="false" defer></script>
+    <script id="prism-js" data-cfasync="false" src="../../resources/js/prism.js?v=4.6.0.841315052442" defer></script>
 </head>
 <body>
     <div id="retype-app" class="relative text-base antialiased text-base-text bg-base-bg font-body">
@@ -311,12 +311,6 @@
     &quot;DFIntReplicatorAnimationTrackLimitPerAnimator&quot;: &quot;-1&quot;
 }</code></pre>
 </doc-codeblock></div>
-<h3 id="delayed-animations">Delayed Animations</h3>
-<div id="delayed-animations-code-1" class="codeblock-wrapper"><doc-codeblock>
-<pre translate="no" class="language-json"><code v-pre class="language-json">{
-    &quot;FFlagProcessAnimationLooped&quot;: &quot;False&quot;
-}</code></pre>
-</doc-codeblock></div>
 <h3 id="stick-unanchored-parts-to-you">Stick unanchored parts to you</h3>
 <div class="flex mb-6">
     <div class="shrink-0 w-1.5 rounded-tl-lg rounded-bl-lg bg-callout-tip"></div>
@@ -540,6 +534,68 @@ return
     &quot;DFIntPhysicsImprovedCyclicExecutiveThrottleThresholdTenth&quot;: &quot;0&quot;
 }</code></pre>
 </doc-codeblock></div>
+<h1 id="speed">SPEED</h1>
+<p>High FPS</p>
+<div id="speed-code-1" class="codeblock-wrapper"><doc-codeblock>
+<pre translate="no" class="language-json"><code v-pre class="language-json">{
+  &quot;FIntSimDefaultFluidForceEnabled&quot;: &quot;3&quot;,
+  &quot;DFIntSimTimestepMultiplierDebounceCount&quot;: &quot;1&quot;,
+  &quot;FFlagDebugHumanoidNewPhysicsEnabled&quot;: &quot;True&quot;
+}</code></pre>
+</doc-codeblock></div>
+<h1 id="slight-jump-boost-1">Slight Jump Boost</h1>
+<div id="slight-jump-boost-1-code-1" class="codeblock-wrapper"><doc-codeblock>
+<pre translate="no" class="language-json"><code v-pre class="language-json">{
+  &quot;FIntSimDefaultFluidForceEnabled&quot;: &quot;3&quot;
+}</code></pre>
+</doc-codeblock></div>
+<h3 id="esp">ESP</h3>
+<div id="esp-code-1" class="codeblock-wrapper"><doc-codeblock>
+<pre translate="no" class="language-json"><code v-pre class="language-json">{
+   &quot;FFlagVoiceMetricsDebugDrawEnabled4&quot;: &quot;True&quot;,
+   &quot;DFFlagDebugDrawEnable&quot;: &quot;True&quot;
+}</code></pre>
+</doc-codeblock></div>
+<p>Extra:</p>
+<div id="esp-code-2" class="codeblock-wrapper"><doc-codeblock>
+<pre translate="no" class="language-json"><code v-pre class="language-json">{
+  &quot;DFFlagDebugDraw3dAudioInfo&quot;: &quot;True&quot;,
+  &quot;DFFlagDebugDrawControllerManagerAdorns&quot;: &quot;True&quot;,
+  &quot;DFFlagDebugDrawControllerSensorDataFindLadder&quot;: &quot;True&quot;,
+  &quot;DFFlagDebugDrawEnable&quot;: &quot;True&quot;,
+  &quot;DFFlagDebugDrawEngineContext&quot;: &quot;True&quot;,
+  &quot;FFlagDebugDrawLoDExtents&quot;: &quot;True&quot;,
+  &quot;FFlagDebugDrawNavTrussClimbing&quot;: &quot;True&quot;,
+  &quot;DFFlagDebugDrawOcclusionPaths&quot;: &quot;True&quot;,
+  &quot;DFFlagDebugDrawVolumetricEmitter&quot;: &quot;True&quot;,
+  &quot;DFStringDebugDrawVolumetricPanningName&quot;: &quot;1&quot;,
+  &quot;DFFlagDebugDrawVolumetricPanning&quot;: &quot;True&quot;,
+  &quot;DFFlagEnableOctreeDebugDraw&quot;: &quot;True&quot;,
+  &quot;DFFlagHumanoidRigDescriptionDebugDraw&quot;: &quot;True&quot;,
+  &quot;FFlagVoiceMetricsDebugDrawEnabled4&quot;: &quot;True&quot;
+}</code></pre>
+</doc-codeblock></div>
+<h3 id="instant-turning-r15">Instant Turning [R15]</h3>
+<div id="instant-turning-r15-code-1" class="codeblock-wrapper"><doc-codeblock>
+<pre translate="no" class="language-json"><code v-pre class="language-json">{
+   &quot;DFFlagUsePhysicsForEmoteAutoTurn &quot;: &quot;False&quot;
+}</code></pre>
+</doc-codeblock></div>
+<h3 id="infinite-jump">Infinite Jump</h3>
+<div id="infinite-jump-code-1" class="codeblock-wrapper"><doc-codeblock>
+<pre translate="no" class="language-json"><code v-pre class="language-json">{
+   &quot;DFIntExtraFloorRaycastDistanceHipHeightPercent&quot;: &quot;10000&quot;
+}</code></pre>
+</doc-codeblock></div>
+<h3 id="hipheight">HipHeight</h3>
+<div id="hipheight-code-1" class="codeblock-wrapper"><doc-codeblock>
+<pre translate="no" class="language-json"><code v-pre class="language-json">{
+   &quot;FFlagDebugHumanoidNewPhysicsEnabled&quot;: &quot;true&quot;,
+   &quot;DFFlagDebugSimLevitationNormalPD2&quot;: &quot;true&quot;,
+   &quot;DFIntDebugSimLevitationNormalPD100xPeriod&quot;: &quot;6&quot;,
+   &quot;DFIntRaycastMaxDistance&quot;: &quot;1&quot;
+}</code></pre>
+</doc-codeblock></div>
 <h1 id="abusive-visuals">Abusive Visuals</h1>
 <h3 id="semi-fullbright">Semi Fullbright</h3>
 <div id="semi-fullbright-code-1" class="codeblock-wrapper"><doc-codeblock>
@@ -551,15 +607,6 @@ return
     &quot;FFlagNewLightAttenuation&quot;: &quot;True&quot;,
     &quot;FIntRenderShadowmapBias&quot;: &quot;-1&quot;,
     &quot;DFFlagDebugPauseVoxelizer&quot;: &quot;True&quot;
-}</code></pre>
-</doc-codeblock></div>
-<h3 id="draws-a-circle-under-avatars">Draws a circle under avatars</h3>
-<div id="draws-a-circle-under-avatars-code-1" class="codeblock-wrapper"><doc-codeblock>
-<pre translate="no" class="language-json"><code v-pre class="language-json">{
-    &quot;FFlagDebugAvatarChatVisualization&quot;: &quot;True&quot;,
-    &quot;FFlagEnableInGameMenuChromeABTest4&quot;: &quot;False&quot;,
-    &quot;FFlagEnableInGameMenuChrome&quot;: &quot;False&quot;,
-    &quot;FFlagEnableInGameMenuSongbirdABTest&quot;: &quot;False&quot;
 }</code></pre>
 </doc-codeblock></div>
 <h3 id="humanoid-outline">Humanoid Outline</h3>

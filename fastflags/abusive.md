@@ -69,12 +69,6 @@
     "DFIntReplicatorAnimationTrackLimitPerAnimator": "-1"
 }
 ```
-### Delayed Animations
-```json
-{
-    "FFlagProcessAnimationLooped": "False"
-}
-```
 ### Stick unanchored parts to you
 > [!TIP]
 > **- = up, + = down**
@@ -202,10 +196,72 @@ found by discord userid: 784354759841939506
 }
 ```
 ### Drive Vehicles Slow
- @tyetonix
+@tyetonix
 ```json
 {
     "DFIntPhysicsImprovedCyclicExecutiveThrottleThresholdTenth": "0"
+}
+```
+# SPEED
+High FPS
+```json
+{
+  "FIntSimDefaultFluidForceEnabled": "3",
+  "DFIntSimTimestepMultiplierDebounceCount": "1",
+  "FFlagDebugHumanoidNewPhysicsEnabled": "True"
+}
+```
+# Slight Jump Boost
+```json
+{
+  "FIntSimDefaultFluidForceEnabled": "3"
+}
+```
+### ESP
+```json
+{
+   "FFlagVoiceMetricsDebugDrawEnabled4": "True",
+   "DFFlagDebugDrawEnable": "True"
+}
+```
+Extra:
+```json
+{
+  "DFFlagDebugDraw3dAudioInfo": "True",
+  "DFFlagDebugDrawControllerManagerAdorns": "True",
+  "DFFlagDebugDrawControllerSensorDataFindLadder": "True",
+  "DFFlagDebugDrawEnable": "True",
+  "DFFlagDebugDrawEngineContext": "True",
+  "FFlagDebugDrawLoDExtents": "True",
+  "FFlagDebugDrawNavTrussClimbing": "True",
+  "DFFlagDebugDrawOcclusionPaths": "True",
+  "DFFlagDebugDrawVolumetricEmitter": "True",
+  "DFStringDebugDrawVolumetricPanningName": "1",
+  "DFFlagDebugDrawVolumetricPanning": "True",
+  "DFFlagEnableOctreeDebugDraw": "True",
+  "DFFlagHumanoidRigDescriptionDebugDraw": "True",
+  "FFlagVoiceMetricsDebugDrawEnabled4": "True"
+}
+```
+### Instant Turning [R15]
+```json
+{
+   "DFFlagUsePhysicsForEmoteAutoTurn ": "False"
+}
+```
+### Infinite Jump
+```json
+{
+   "DFIntExtraFloorRaycastDistanceHipHeightPercent": "10000"
+}
+```
+### HipHeight
+```json
+{
+   "FFlagDebugHumanoidNewPhysicsEnabled": "true",
+   "DFFlagDebugSimLevitationNormalPD2": "true",
+   "DFIntDebugSimLevitationNormalPD100xPeriod": "6",
+   "DFIntRaycastMaxDistance": "1"
 }
 ```
 
@@ -223,15 +279,7 @@ found by discord userid: 784354759841939506
     "DFFlagDebugPauseVoxelizer": "True"
 }
 ```
-### Draws a circle under avatars
-```json
-{
-    "FFlagDebugAvatarChatVisualization": "True",
-    "FFlagEnableInGameMenuChromeABTest4": "False",
-    "FFlagEnableInGameMenuChrome": "False",
-    "FFlagEnableInGameMenuSongbirdABTest": "False"
-}
-```
+
 ### Humanoid Outline
 > [!NOTE]
 > **Draws an outline around every part and every humanoid**
