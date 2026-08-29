@@ -1,5 +1,5 @@
 > [!CAUTION]
-> FastFlags are not bannable by Roblox, but abusing them can get you banned from certain games.
+> Roblox now restricts local FastFlags through an official allowlist. Bypassing these restrictions through methods such as proxy interception may increase ban risk. No bans have been reported for proxy-based fastflags use so far, but this is not a guarantee of safety. FastFLag Injectors are also considered exploit-related methods and carry additional risks. Use at your own risk.
 
 ### Teleport All Ragdolls/Unanchored to 0, 0, 0
 > [!NOTE]
@@ -90,8 +90,6 @@
 }
 ```
 ### Change DataSender Rate
-> [!NOTE]
-> **A.k.a does not let you load games**
 ```json
 {
     "DFIntDataSenderRate": "-1"
@@ -180,7 +178,7 @@ found by discord userid: 784354759841939506
      "DFIntMaximumUnstickForceInGs": "-10"
  }
  ```
-### Network Ownership
+### Network Ownership ✨
 > [!NOTE]
 > better [network ownership](https://create.roblox.com/docs/physics/network-ownership) of parts
 
@@ -202,7 +200,7 @@ found by discord userid: 784354759841939506
     "DFIntPhysicsImprovedCyclicExecutiveThrottleThresholdTenth": "0"
 }
 ```
-# SPEED
+# SPEED ✨
 High FPS
 ```json
 {
@@ -217,7 +215,7 @@ High FPS
   "FIntSimDefaultFluidForceEnabled": "3"
 }
 ```
-### ESP
+### ESP ✨
 ```json
 {
    "FFlagVoiceMetricsDebugDrawEnabled4": "True",
@@ -249,13 +247,13 @@ Extra:
    "DFFlagUsePhysicsForEmoteAutoTurn ": "False"
 }
 ```
-### Infinite Jump
+### Infinite Jump ✨
 ```json
 {
    "DFIntExtraFloorRaycastDistanceHipHeightPercent": "10000"
 }
 ```
-### HipHeight
+### HipHeight ✨
 ```json
 {
    "FFlagDebugHumanoidNewPhysicsEnabled": "true",

@@ -18,7 +18,7 @@
 - [Quality of Life](https://fastflags.netlify.app/fastflags/qol.md): Setting this to True will not do change anything
 - [User Interface/Visuals](https://fastflags.netlify.app/fastflags/ui.md): example
 - [Experimental/Testing](https://fastflags.netlify.app/fastflags/experimental.md): Person(s) you want to party with must have both of these to be disabled otherwise they won't be able to hear you/speak
-- [Abusive](https://fastflags.netlify.app/fastflags/abusive.md): FastFlags are not bannable by Roblox, but abusing them can get you banned from certain games.
+- [Abusive](https://fastflags.netlify.app/fastflags/abusive.md): Roblox now restricts local FastFlags through an official allowlist. Bypassing these restrictions through methods such as proxy interception may increase ban risk.
 - [Misc](https://fastflags.netlify.app/fastflags/misc.md): @.rbx.bloxy
 - [Audio Related](https://fastflags.netlify.app/fastflags/audio.md): Default: [Min 7 Max 80]
 - [Trash](https://fastflags.netlify.app/fastflags/trash.md)
