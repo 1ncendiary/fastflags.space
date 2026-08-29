@@ -18,12 +18,6 @@ order: -3
     "DFFlagRenderHighlightManagerPrepare4": "True"
 }
 ```
-### Enable DRS
-```json
-{
-    "FFlagRenderDynamicResolutionScale12": "True"
-}
-```
 ### Move Pre-Render Phase
 :::content-center
 [!badge variant="success" text="~25% Performance Boost"] [!badge variant="danger" text="Please read the explanation below before applying"]
@@ -61,23 +55,6 @@ order: -3
 ```json
 {
     "FFlagHighlightOutlinesOnMobile": "True"
-}
-```
-### No Bloom/Clouds
-@burgerboxer
-```json
-{
-    "FFlagRenderNoLowFrmBloom": "False"
-}
-```
-### Render Occlusion Culling
-[@CloneTrooper1019](https://x.com/MaximumADHD/status/1832331711486865769)
-```json
-{
-    "DFFlagUseVisBugChecks": "True",
-    "FFlagEnableVisBugChecks27": "True",
-    "FFlagVisBugChecksThreadYield": "True",
-    "FIntEnableVisBugChecksHundredthPercent27": "100"
 }
 ```
 ### Increased Particles on low graphics
@@ -180,12 +157,7 @@ order: -3
     "DFIntDebugFRMQualityLevelOverride": "6"
 }
 ```
-### Disable PostFX
-```json
-{
-    "FFlagDisablePostFx": "True"
-}
-```
+
 ### Pause Voxelizer/Disable Baked Shadows
 ```json
 {
