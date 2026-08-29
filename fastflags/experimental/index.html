@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="color-scheme" content="light dark">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.6.0.841315457005">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.6.0.841315489146">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 4.6.0">
@@ -12,7 +12,6 @@
     <!-- Primary Meta Tags -->
     <title>Experimental/Testing | fastflags.netlify.app</title>
     <meta name="title" content="Experimental/Testing | fastflags.netlify.app">
-    <meta name="description" content="Person(s) you want to party with must have both of these to be disabled otherwise they won't be able to hear you/speak">
 
     <!-- Canonical -->
     <link rel="canonical" href="https://fastflags.netlify.app/fastflags/experimental/">
@@ -22,7 +21,6 @@
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://fastflags.netlify.app/fastflags/experimental/">
     <meta property="og:title" content="Experimental/Testing | fastflags.netlify.app">
-    <meta property="og:description" content="Person(s) you want to party with must have both of these to be disabled otherwise they won't be able to hear you/speak">
     <meta property="og:site_name" content="fastflags.netlify.app">
     <meta property="og:locale" content="en_US">
 
@@ -30,7 +28,6 @@
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:url" content="https://fastflags.netlify.app/fastflags/experimental/">
     <meta name="twitter:title" content="Experimental/Testing | fastflags.netlify.app">
-    <meta name="twitter:description" content="Person(s) you want to party with must have both of these to be disabled otherwise they won't be able to hear you/speak">
 
     <!-- Alternate Markdown -->
     <link rel="alternate" type="text/markdown" href="https://fastflags.netlify.app/fastflags/experimental.md">
@@ -38,12 +35,11 @@
     <script data-cfasync="false">(function(){var cl=document.documentElement.classList,ls=localStorage.getItem("retype_scheme"),hd=cl.contains("dark"),hl=cl.contains("light"),wm=window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches;if(ls==="dark"||(!ls&&wm&&!hd&&!hl)){cl.remove("light");cl.add("dark")}else if(ls==="light"||(!ls&&!wm&&!hd&&!hl)){cl.remove("dark");cl.add("light")}})();</script>
 
     <link id="retype-favicon" rel="icon" href="../../static/favicon.png" />
-    <link href="../../resources/css/retype.css?v=4.6.0.841315457005" rel="stylesheet">
+    <link href="../../resources/css/retype.css?v=4.6.0.841315489146" rel="stylesheet">
 
-    <script data-cfasync="false" src="../../resources/js/config.js?v=4.6.0.841315457005" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../../resources/js/config.js?v=4.6.0.841315489146" data-turbo-eval="false" defer></script>
     <script data-cfasync="false" src="../../resources/js/retype.js?v=4.6.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=4.6.0.841315457005" data-turbo-eval="false" defer></script>
-    <script id="prism-js" data-cfasync="false" src="../../resources/js/prism.js?v=4.6.0.841315457005" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=4.6.0.841315489146" data-turbo-eval="false" defer></script>
 </head>
 <body>
     <div id="retype-app" class="relative text-base antialiased text-base-text bg-base-bg font-body">
@@ -195,123 +191,7 @@
 
                 <!-- Page content  -->
 <h1 id="experimentaltesting">Experimental/Testing</h1>
-<h3 id="voicechat-in-party">Voicechat in Party</h3>
-<div class="flex mb-6">
-    <div class="shrink-0 w-1.5 rounded-tl-lg rounded-bl-lg bg-callout-primary"></div>
-    <div class="flex w-full py-4 border border-l-0 rounded-tr-lg rounded-br-lg doc-callout bg-callout-base-bg border-callout-base-border" role="alert">
-        <div class="flex items-center ml-4 h-7">
-            <svg xmlns="http://www.w3.org/2000/svg" class="block text-callout-primary" width="22" height="22" viewBox="0 0 24 24" role="presentation">
-                <g fill="currentColor"><g>
-                    <path d="M12 1C5.93 1 1 5.93 1 12s4.93 11 11 11 11-4.93 11-11S18.07 1 12 1zm0 20c-4.96 0-9-4.04-9-9s4.04-9 9-9 9 4.04 9 9-4.04 9-9 9z"></path>
-                    <path d="M12 11c-.55 0-1 .45-1 1v4c0 .55.45 1 1 1s1-.45 1-1v-4c0-.55-.45-1-1-1zM12.01 7c-.56 0-1 .45-1 1s.45 1 1 1 1-.45 1-1-.45-1-1-1z"></path>
-                    <path fill="none" d="M0 0h24v24H0z"></path>
-                </g></g>
-            </svg>
-        </div>
-        <div class="pr-5 ml-3 w-full">
-            <h5>Note</h5>
-<p>Person(s) you want to party with <strong>must</strong> have both of these to be disabled otherwise they won&#x27;t be able to hear you/speak</p>
-        </div>
-    </div>
-</div>
-<div id="voicechat-in-party-code-1" class="codeblock-wrapper"><doc-codeblock>
-<pre translate="no" class="language-json"><code v-pre class="language-json">{
-   &quot;FFlagEnablePartyVoiceOnlyForUnfilteredThreads&quot;: &quot;False&quot;,
-   &quot;FFlagEnablePartyVoiceOnlyForEligibleUsers&quot;: &quot;False&quot;,
-}</code></pre>
-</doc-codeblock></div>
-<h3 id="experience-menu-refactor">Experience Menu Refactor</h3>
-<div id="experience-menu-refactor-code-1" class="codeblock-wrapper"><doc-codeblock>
-<pre translate="no" class="language-json"><code v-pre class="language-json">{
-   &quot;FFlagDebugRefactorInExpGameSettings&quot;: &quot;True&quot;
-}</code></pre>
-</doc-codeblock></div>
-<h3 id="enable-multi-try-on">Enable Multi Try On</h3>
-<div id="enable-multi-try-on-code-1" class="codeblock-wrapper"><doc-codeblock>
-<pre translate="no" class="language-json"><code v-pre class="language-json">{
-   &quot;FFlagAXEnableMultiTryOnUI&quot;: &quot;True&quot;
-}</code></pre>
-</doc-codeblock></div>
-<h3 id="enable-posts">Enable Posts</h3>
-<div id="enable-posts-code-1" class="codeblock-wrapper"><doc-codeblock>
-<pre translate="no" class="language-json"><code v-pre class="language-json">{
-   &quot;FFlagCapturesPostEnabledForAll_v4&quot;: &quot;True&quot;
-}</code></pre>
-</doc-codeblock></div>
-<h3 id="new-experience-menu">New Experience Menu</h3>
-<div id="new-experience-menu-code-1" class="codeblock-wrapper"><doc-codeblock>
-<pre translate="no" class="language-json"><code v-pre class="language-json">{
-    &quot;FFlagRefactorInExpGameSettings&quot;: &quot;True&quot;
-}</code></pre>
-</doc-codeblock></div>
-<h3 id="enable-first-time-user-experience-for-chrome-ui">Enable First Time User Experience for Chrome UI</h3>
-<div id="enable-first-time-user-experience-for-chrome-ui-code-1" class="codeblock-wrapper"><doc-codeblock>
-<pre translate="no" class="language-json"><code v-pre class="language-json">{
-    &quot;FFlagEnableChromeFTUX&quot;: &quot;True&quot;
-}</code></pre>
-</doc-codeblock></div>
-<h3 id="chrome-ui-topbar-removal">Chrome UI Topbar Removal</h3>
-<div id="chrome-ui-topbar-removal-code-1" class="codeblock-wrapper"><doc-codeblock>
-<pre translate="no" class="language-json"><code v-pre class="language-json">{
-    &quot;FFlagEnableInGameMenuChromeABTest4&quot;: &quot;False&quot;
-    &quot;FFlagEnableInGameMenuSongbirdABTest&quot;: &quot;False&quot;
-}</code></pre>
-</doc-codeblock></div>
-<h3 id="hide-playerlist-close-button-on-chrome-ui">Hide playerlist close button on Chrome UI</h3>
-<div id="hide-playerlist-close-button-on-chrome-ui-code-1" class="codeblock-wrapper"><doc-codeblock>
-<pre translate="no" class="language-json"><code v-pre class="language-json">{
-    &quot;FFlagDisablePlayerListDisplayCloseBtn&quot;: &quot;True&quot;
-}</code></pre>
-</doc-codeblock></div>
-<h3 id="self-explanatory-i-think">Self Explanatory i think</h3>
-<div id="self-explanatory-i-think-code-1" class="codeblock-wrapper"><doc-codeblock>
-<pre translate="no" class="language-json"><code v-pre class="language-json">{
-    &quot;FFlagChromeUsePreferredTransparency&quot;: &quot;True&quot;
-}</code></pre>
-</doc-codeblock></div>
-<h3 id="ragdoll-death-type">Ragdoll Death Type</h3>
-<div class="flex mb-6">
-    <div class="shrink-0 w-1.5 rounded-tl-lg rounded-bl-lg bg-callout-info"></div>
-    <div class="flex w-full py-4 border border-l-0 rounded-tr-lg rounded-br-lg doc-callout bg-callout-base-bg border-callout-base-border" role="alert">
-        <div class="flex items-center ml-4 h-7">
-            <svg xmlns="http://www.w3.org/2000/svg" class="block text-callout-info" width="22" height="22" viewBox="0 0 24 24" role="presentation">
-                <g fill="currentColor"><g>
-                    <path d="M12 1C5.93 1 1 5.93 1 12s4.93 11 11 11 11-4.93 11-11S18.07 1 12 1zm0 20c-4.96 0-9-4.04-9-9s4.04-9 9-9 9 4.04 9 9-4.04 9-9 9z"></path>
-                    <path d="M12 11c-.55 0-1 .45-1 1v4c0 .55.45 1 1 1s1-.45 1-1v-4c0-.55-.45-1-1-1zM12.01 7c-.56 0-1 .45-1 1s.45 1 1 1 1-.45 1-1-.45-1-1-1z"></path>
-                    <path fill="none" d="M0 0h24v24H0z"></path>
-                </g></g>
-            </svg>
-        </div>
-        <div class="pr-5 ml-3 w-full">
-            <h5>Important</h5>
-<p><strong>Studio Only</strong></p>
-        </div>
-    </div>
-</div>
-<div class="flex mb-6">
-    <div class="shrink-0 w-1.5 rounded-tl-lg rounded-bl-lg bg-callout-primary"></div>
-    <div class="flex w-full py-4 border border-l-0 rounded-tr-lg rounded-br-lg doc-callout bg-callout-base-bg border-callout-base-border" role="alert">
-        <div class="flex items-center ml-4 h-7">
-            <svg xmlns="http://www.w3.org/2000/svg" class="block text-callout-primary" width="22" height="22" viewBox="0 0 24 24" role="presentation">
-                <g fill="currentColor"><g>
-                    <path d="M12 1C5.93 1 1 5.93 1 12s4.93 11 11 11 11-4.93 11-11S18.07 1 12 1zm0 20c-4.96 0-9-4.04-9-9s4.04-9 9-9 9 4.04 9 9-4.04 9-9 9z"></path>
-                    <path d="M12 11c-.55 0-1 .45-1 1v4c0 .55.45 1 1 1s1-.45 1-1v-4c0-.55-.45-1-1-1zM12.01 7c-.56 0-1 .45-1 1s.45 1 1 1 1-.45 1-1-.45-1-1-1z"></path>
-                    <path fill="none" d="M0 0h24v24H0z"></path>
-                </g></g>
-            </svg>
-        </div>
-        <div class="pr-5 ml-3 w-full">
-            <h5>Note</h5>
-<p><strong>I tried <code translate="no" v-pre>Ragdoll</code> to see if anything would happen lol this is how i found this (found this long time ago)</strong></p>
-        </div>
-    </div>
-</div>
-<p>@burgerboxer</p>
-<div id="ragdoll-death-type-code-1" class="codeblock-wrapper"><doc-codeblock>
-<pre translate="no" class="language-json"><code v-pre class="language-json">{
-    &quot;DFStringDefaultAvatarDeathType&quot;: &quot;Ragdoll&quot;
-}</code></pre>
-</doc-codeblock></div>
+<h3 id="tba">TBA</h3>
 
                 
                 <!-- Required only on API pages -->
@@ -398,6 +278,6 @@
 
     <div id="retype-overlay-target"></div>
 
-        <script data-cfasync="false">window.__DOCS__ = { "title": "Experimental/Testing", level: 2, icon: "file", hasPrism: true, hasInstagram: false, hasMermaid: false, hasMath: false, tocDepth: 23, "md": "/fastflags/experimental.md" }</script>
+        <script data-cfasync="false">window.__DOCS__ = { "title": "Experimental/Testing", level: 2, icon: "file", hasPrism: false, hasInstagram: false, hasMermaid: false, hasMath: false, tocDepth: 23, "md": "/fastflags/experimental.md" }</script>
 </body>
 </html>
